@@ -68,7 +68,7 @@ export default function AddCreator({refresh}) {
               Provide a description of the creator. Who are they? What makes them interesting?
             </h5>
           </span>
-          <input className='bg-white text-black p-4 w-full h-27 rounded-md'
+          <textarea className='bg-white text-black p-4 w-full h-29 rounded-md resize-none'
             type="text" value={description}
             onChange={(e) => setDescription(e.target.value)}
             id="description" />
